@@ -1,0 +1,244 @@
+header{
+  height: 600px;
+	background-image: url('images/tuta.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+  z-index: 1;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size : cover;
+  font-family: 'Permanent Marker', cursive;
+
+  opacity: 0;
+   animation-name: fadein-bottom;
+   animation-duration: 2.5s;
+   animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+}
+@keyframes fadein-bottom {
+   0% {
+      opacity: 0;
+      transform: translateY(20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+  font-size: 15vw;
+  color: whitesmoke;
+  border: none;
+    text-shadow: 1px 1px 5px black,
+    4px 4px 2px rgba(0,0,0,0.5);
+    box-sizing:border-box;
+
+  width: 100%;
+  text-align: center;
+  transform: skewY(-8deg);
+} 
+
+.navi{
+  margin-top: 50px;
+}
+
+.navi-lists{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+} 
+
+.navi-list{
+  color: #fff;
+  background-color: darkgray;
+  border-bottom: 5px solid gray;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.navi-list:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+
+.style{
+  text-decoration:none;
+  color: #fff;
+}
+
+.prof-image{
+  height: 450px;
+  width: 300px;
+}
+
+.profile{
+  padding: 5%;
+  height: 600px;
+	background-color: lightgrey;
+	z-index: 2;
+}
+
+.profile-title{
+  font-family: 'Permanent Marker', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.profile-top{
+  font-size: 60px;
+}
+
+.profile-main{
+  display: flex;
+  justify-content: center;
+}
+
+.profile-list{
+  font-size: 1.1vw;
+  list-style: none;
+  padding: 5vw;
+}
+
+
+.skill{
+  padding: 5%;
+  height: 600px;
+	background-image: url('images/kokuban.jpg');
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 1;
+}
+
+.skill-title{
+  font-family: 'Permanent Marker', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.skill-top{
+  font-size: 60px;
+  color: #FFF;
+}
+
+.skill-sub{
+  color: #FFF;
+}
+
+.skill-lists{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.skill-list{
+  color: #FFF;
+  width: 60%;
+  padding: 3px;
+  background: -moz-linear-gradient(right, lightgrey, #97a6fa 30%, #8e95f5 60%, hsl(230, 59%, 60%));
+  background: -webkit-linear-gradient(right, lightgrey, #97a6fa 30%, #8e95f5 60%, hsl(230, 59%, 60%));
+  background: linear-gradient(to left, lightgrey, #97a6fa 30%, #8e95f5 60%, hsl(230, 59%, 60%));
+  margin: 1vh;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+}
+
+.icon-list{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.contact{
+  padding: 5%;
+  height: 600px;
+	background-color: lightgrey;
+	z-index: 2;
+}
+
+.contact-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-form{
+	width: 70%;
+  margin: 15px 3%;
+  font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: black;
+  outline: none;
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+.button-dec{
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  text-decoration: none;
+  display       : inline-block;
+  border-radius : 10%;
+  font-size     : 12pt;
+  text-align    : center;
+  cursor        : pointer;
+  padding       : 10px 10px;
+  background    : #000066;
+  color         : #ffffff;
+  line-height   : 0.8em;
+  transition    : .3s;
+  box-shadow    : 2px 2px 3px #666666;
+}
+.button:hover {
+  box-shadow    : none;
+}
+
+.header-bar{
+  margin: 5px;
+  background-color : white ; opacity : 0.5;
+  padding-right: 20px;
+  list-style: none;
+  display: flex;
+  position: fixed;
+  font-size: 30px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.header-list{
+
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  margin-right: 10px;
+}
